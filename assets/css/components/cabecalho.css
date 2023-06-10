@@ -1,0 +1,41 @@
+body, html{
+    font-family: 'Red Hat Display', sans-serif; 
+    scroll-behavior: smooth;
+}
+
+#header{
+    width: 100%;
+    background-color: #FB3131;
+    transition: background ease-out 0.2s;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+
+}
+
+#header .navbar{
+    margin: 0 40px ;
+}
+
+#header .navbar-collapse{
+    width: auto;
+    flex-grow: 0;
+    
+}
+
+#header .nav-link{
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:#fff;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 4px #fff;
+    color: #fff;
+}
