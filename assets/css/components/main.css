@@ -1,0 +1,20 @@
+
+p{
+    text-align: justify;
+}
+.titulo-main{
+    font-weight: bold;
+    padding: 150px 0 0;
+}
+
+.conteudo-principal{
+    margin: 25px 100px;
+}
+
+.conteudo-text{
+    margin: 50px 0;
+}
+
+.subtitulo-main{
+    font-weight: bold;
+}

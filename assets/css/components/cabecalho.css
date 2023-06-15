@@ -1,6 +1,7 @@
 body, html{
     font-family: 'Red Hat Display', sans-serif; 
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 #header{
@@ -12,11 +13,10 @@ body, html{
     text-align: center;
     align-items: center;
     align-self: center;
-
 }
 
 #header .navbar{
-    margin: 10px 100px ;
+    margin: 10px 100px;
 }
 
 #header .navbar-collapse{

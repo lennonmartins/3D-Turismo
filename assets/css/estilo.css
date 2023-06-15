@@ -1,4 +1,5 @@
 @import url(./components/cabecalho.css);
+@import url(./components/main.css);
 
 .masthead {
   margin: 0 100px;
@@ -135,4 +136,9 @@ header .nav-link:hover {
 
 .rodape-cor{
  background-color: #fb3131;
+}
+
+.botao-card{
+  text-decoration: none;
+  color: #eee;
 }
