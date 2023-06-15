@@ -1,74 +1,138 @@
 @import url(./components/cabecalho.css);
 
 .masthead {
-    margin: 0 45px;
-    height: calc(80vh);
-    min-height: 300px;
-    background-image: url('../imagem/image.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+  margin: 0 100px;
+  height: calc(65vh);
+  min-height: 300px;
+  background-image: url("../imagem/image.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
-
-.cards {
-    margin-bottom: 30px;
-}
-
-/* .card:hover {
-    transform: scale(1.1);
-} */
 
 .btn-primary {
-    background-color: #FB3131;
-    border-style: none;
-    z-index: 1;
+  background-color: #fb3131;
+  border-style: none;
+  z-index: 1;
 }
 
 .btn-primary:hover {
-    background-color: #212529;
-    ;
-    transition: 0.2s;
-    z-index: 1;
+  background-color: #212529;
+  transition: 0.2s;
+  z-index: 1;
 }
 
 header .nav-link {
-    text-decoration: none;
-    color: #000;
-    z-index: 1;
+  text-decoration: none;
+  color: #000;
+  z-index: 1;
 }
 
 header .nav-link:hover {
-    text-decoration: none;
-    color: #fff;
-    z-index: 1;
+  text-decoration: none;
+  color: #fff;
+  z-index: 1;
 }
 
-.modal-banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.modal-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-corpo{
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   padding: 50px;
+.card-busca {
+  max-width: 708px;
+  height: 169px;
+  border-radius: 1rem;
 }
 
-.card{
-    border-radius: 25px;
+.card-corpo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
 }
 
-.input-busca-destino{
-    border-radius: 15px;
-    border-color: #000;
-    
+.input-busca-destino {
+  border-radius: 15px;
+  border-color: #000;
+}
+.projetos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5em;
 }
 
-.buttun-buscar{
-    width: 150px;
-    border-radius: 15px;
-   
+.card-imagens {
+  width: 16rem;
+  height: 20rem;
+  position: relative;
+  border-radius: 25px;
+}
+
+.card-img-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  border-radius: 0.5rem;
+}
+
+.card-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.card:hover .card-img-wrapper img {
+  opacity: 0.5;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  padding: 2rem;
+  text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
+  transition: all 0.3s;
+}
+
+.card-info h2 {
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #eee;
+  width: 200px;
+}
+
+.btn {
+  background: red;
+  font-family: var(--font-action);
+  color: #eee;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+}
+
+.card-info button {
+  width: 8rem;
+  height: 2.5rem;
+}
+
+.card:hover .card-info {
+  bottom: 2rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+.buttun-buscar {
+  width: 150px;
+  border-radius: 15px;
+}
+
+.rodape-cor{
+ background-color: #fb3131;
 }
