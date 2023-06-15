@@ -45,7 +45,30 @@ header .nav-link:hover {
 }
 
 .modal-banner{
-    
-    text-align: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.card-corpo{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 50px;
+}
+
+.card{
+    border-radius: 25px;
+}
+
+.input-busca-destino{
+    border-radius: 15px;
+    border-color: #000;
+    
+}
+
+.buttun-buscar{
+    width: 150px;
+    border-radius: 15px;
+   
 }

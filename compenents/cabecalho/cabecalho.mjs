@@ -1,5 +1,5 @@
 export function Cabecalho(){
-fetch('/compenents/cabecalho/cabecalho.html')
+fetch('./cabecalho.html')
     .then(response => response.text())
     .then(html =>{
         document.getElementById('componente-cabecalho').innerHTML = html;
